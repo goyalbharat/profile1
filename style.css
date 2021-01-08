@@ -1,0 +1,88 @@
+body {
+  background-color:#19a1ad;
+  margin: 0;
+  text-align: center;
+  font-Family: Kumbh Sans;
+  font-size:18px;
+  background-image: url("");
+  background-repeat: no-repeat;
+
+}
+
+.container {
+  background-color: white;
+  width: 400px;
+  height: 400px;
+  border-radius: 20px;
+  border: 1px white blue;
+  margin: 150px auto;
+
+}
+.first{
+    background-image: url("bg-pattern-card.svg");
+}
+.mini {
+  width: 100%;
+  height: 30%;
+  background-color:#65d6ce;
+  border-radius: 20px 20px 0px 0px;
+
+}
+.top{
+  border:none;
+  width:100%;
+  position: absolute;
+  left:-810px;
+  top:-1000px;
+  z-index: -1;
+}
+.bottom{
+  border:none;
+  width:60%;
+  position: absolute;
+  left:850px;
+  top:200px;
+ z-index: -1;
+}
+.second {
+  background-color: white;
+  border-bottom: 1px solid    hsl(227, 10%, 46%);
+  height: 20%;
+  margin-bottom: 0;
+
+}
+
+img {
+  width: 25%;
+  margin-top: 70px;
+  border:8px solid white;
+  border-radius: 100%;
+}
+
+
+h2 {
+  margin-top: 80px;
+  margin-bottom: 0px;
+}
+
+p {
+  margin-top: 18px;
+  color: grey;
+}
+span {
+  color: grey;
+  font-weight: lighter;
+}
+
+
+.third{
+  background-color: white;
+  height:25%;
+  margin-top: 0;
+  width:33%;
+  float:left;
+
+}
+.last{
+  margin-top: 20px;
+}
